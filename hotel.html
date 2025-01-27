@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reisebyrå</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="images/fav.png" type="image/png">
+</head>
+<body>
+    <header>
+        <section class="top-bar show-mobile">
+            <a href="index.html">
+                <img src="images/fav.png" alt="Logo" height="48">
+            </a>
+            <a><i class="fa fa-search"></i></a> 
+            <a href="order.html"><i class="fa fa-user"></i></a>
+        </section>
+
+        <section class="hide-mobile">
+            <section class="top-bar">
+                <a href="order.html"><i class="fa fa-search"></i></a>
+                <a href="#">Lag en konto</a>
+                <a href="order.html"><i class="fa fa-user"></i> Min side</a>
+            </section>
+            <section class="main-header">
+                <a href="index.html">
+                    <img src="images/fav.png" alt="Logo" height="48">
+                </a>
+                <nav>
+                    <a href="#tips">Tips and inspirasjon</a>
+                    <a href="hotel.html">Hotel</a>
+                    <a href="https://www.norwegian.no" target="_blank">Fly</a>
+                    <a href="#footer">Kontakt</a>
+                </nav>
+            </section>
+        </section>
+    </header>
+    <main>
+
+        <section class="image-gallery-section">
+            <section class="image-gallery">
+                <section class="slider-wrapper">
+                    <input type="radio" name="slider" id="slide1" checked>
+                    <input type="radio" name="slider" id="slide2">
+                    <input type="radio" name="slider" id="slide3">
+                    <input type="radio" name="slider" id="slide4">
+                    <input type="radio" name="slider" id="slide5">
+                    <input type="radio" name="slider" id="slide6">
+    
+                    <section class="slider">
+                        <label for="slide6" class="arrow left" aria-label="Previous slide">&#9664;</label>
+                        <img src="./images/beach1.png" alt="Beach image 1">
+                        <img src="./images/beach2.png" alt="Beach image 2">
+                        <img src="./images/beach3.png" alt="Beach image 3">
+                        <img src="./images/building.png" alt="Building image">
+                        <img src="./images/cathedral.png" alt="Cathedral image">
+                        <img src="./images/landscape.png" alt="Landscape image">
+                        <label for="slide2" class="arrow right" aria-label="Next slide">&#9654;</label>
+                    </section>
+    
+                    <p class="image-count" aria-label="Total images">6 images</p>
+                </section>
+            </section>
+        </section>
+    
+        <section class="set-visibility-sec">
+            <section class="container">
+                <section class="img-container-grid">
+                    <figure class="bigsquare">
+                        <img src="./images/landscape.png" class="img-grid-c" alt="Landscape">
+                    </figure>
+                    <section class="bigsquare_blank">
+                        <figure class="inner_square">
+                            <img src="./images/beach2.png" class="img-grid-c" alt="Beach 2">
+                        </figure>
+                        <figure class="inner_square">
+                            <img src="./images/sea.png" class="img-grid-c" alt="Sea">
+                        </figure>
+                    </section>
+                    <section class="bigsquare_blank">
+                        <figure class="inner_square">
+                            <img src="./images/beach1.png" class="img-grid-c" alt="Beach 1">
+                        </figure>
+                        <figure class="inner_square">
+                            <img src="./images/holiday.png" class="img-grid-c" alt="Holiday">
+                        </figure>
+                    </section>
+                    <figure class="bigsquare">
+                        <img src="./images/beach3.png" class="img-grid-c" alt="Beach 3">
+                    </figure>
+                </section>
+            </section>
+        </section>
+    
+        <section class="container">
+            <header class="tabs items-center">
+                <h1 class="tab active"><i class="fa-solid fa-eye"></i> Oversikt</h1>
+                <a href="#" class="tab"><i class="fa-solid fa-house-medical"></i> Fasiliteter</a>
+                <a href="#" class="tab"><i class="fa-solid fa-stroopwafel"></i> Velg Rom</a>
+            </header>
+    
+            <section class="facilities">
+                <article class="description">
+                    <h3>Fasiliteter</h3>
+                    <p>Hotel Navn: HTML Hotel</p>
+                    <p>
+                        Stars: 
+                        <i class="fa fa-star checked-star"></i>
+                        <i class="fa fa-star checked-star"></i>
+                        <i class="fa fa-star checked-star"></i>
+                        <i class="fa fa-star checked-star"></i>
+                        <i class="fa fa-star"></i>
+                    </p>
+                    <p>Score: 4/5</p>
+                    <p>
+                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over
+                    </p>
+                    <ul>
+                        <li><i class="fas fa-wifi"></i> Free Wi-Fi</li>
+                        <li><i class="fas fa-swimming-pool"></i> Swimming Pool</li>
+                        <li><i class="fas fa-dumbbell"></i> Fitness Center</li>
+                        <li><i class="fas fa-spa"></i> Spa and Wellness</li>
+                    </ul>
+                </article>
+                <article class="map">
+                    <h2>Map</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d174707.61869391916!2d28.131368547087977!3d36.43496300515785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cbd9f9d80c4f8b%3A0xe01f3dc4509c11e7!2sRhodes%2C%20Greece!5e0!3m2!1sen!2sus!4v1674722761197!5m2!1sen!2sus"
+                        style="width: 100%; height: 300px; border: 0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+
+                </article>
+            </section>
+        </section>
+    
+        <section class="available-rooms">
+            <h2>Tilgjenlige Rom</h2>
+    
+            <article class="room-card">
+                <img src="./images/beach1.png" alt="Junior Suite">
+                <h3>Junior Suite</h3>
+                <ul class="room-info">
+                    <li>Antall: 2</li>
+                    <li>Seng: Queen Size</li>
+                    <li>59 Reviews</li>
+                </ul>
+                <ul class="price-info">
+                    <li><strong>Total Price: 6,789 kr</strong></li>
+                    <li>For 3 nights, 1 room</li>
+                    <li>2,263 kr per natt</li>
+                    <li>Ink MVA and avgifter</li>
+                </ul>
+            </article>
+    
+            <article class="room-card">
+                <img src="./images/beach1.png" alt="Deluxe Suite">
+                <h3>Deluxe Suite</h3>
+                <ul class="room-info">
+                    <li>Antall: 4</li>
+                    <li>Seng: King Size</li>
+                    <li>123 Reviews</li>
+                </ul>
+                <ul class="price-info">
+                    <li><strong>Total Price: 6,789 kr</strong></li>
+                    <li>For 3 nights, 1 room</li>
+                    <li>2,263 kr per natt</li>
+                    <li>Ink MVA and avgifter</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+    <footer id="footer">
+        <section class="set-flags-all">
+            <span><img src="./images/flags/sverige.png" alt="Sverige Flag" style="height: 32px;"> Sverige</span>
+            <span><img src="./images/flags/danmark.png" alt="Danmark Flag" style="height: 32px;"> Danmark</span>
+            <span><img src="./images/flags/norge.png" alt="Norge Flag" style="height: 32px;"> Norge</span>
+            <span><img src="./images/flags/finland.png" alt="Finland Flag" style="height: 32px;"> Suomi</span>
+            <span><img src="./images/flags/nederland.png" alt="Nederland Flag" style="height: 32px;"> Nederland</span>
+        </section>
+        
+        <nav class="set-flex-main">
+            <section>
+                <ul class="set-ftr-list-ul">
+                    <li><strong>BETALINGSMETODER</strong></li>
+                    <li>
+                        <a href="#"><i class="fab fa-cc-visa"></i></a>
+                        <a href="#"><i class="fab fa-cc-mastercard"></i></a>
+                        <a href="#"><i class="fab fa-cc-paypal"></i></a>
+                        <a href="#"><i class="fab fa-apple-pay"></i></a>
+                        <a href="#"><i class="fab fa-google-pay"></i></a>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <ul class="set-ftr-list-ul">
+                    <li><strong>NYHETER & TILBUD</strong></li>
+                    <li>
+                        <form>
+                            <span class="form-section">
+                                <span class="form-group">
+                                    <input type="text" placeholder="eksempel@mail.com">
+                                </span>
+                                <button class="search-btn">Send</button>
+                            </span>
+                        </form>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <ul class="set-ftr-list-ul">
+                    <li><strong>KUNDESERVICE</strong></li>
+                    <li><a href="#">Q & A</a></li>
+                    <li><a href="#">Chat</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                    <li><a href="#">tilgjengelighetserklæring</a></li>
+                </ul>
+            </section>
+            <section>
+                <ul class="set-ftr-list-ul">
+                    <li><strong>SOSIALE MEDIER</strong></li>
+                    <li>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </li>
+                </ul>
+            </section>
+        </nav>
+    </footer>
+
+</body>
+</html>
